@@ -2,6 +2,7 @@ import "./App.css";
 import HeaderButtons from "./components/HeaderButtons";
 import HeaderInputs from "./components/HeaderInputs";
 import CurrTimeAndLocation from "./components/CurrTimeAndLocation";
+import Details from "./components/Details";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <HeaderButtons />
       <HeaderInputs />
       <CurrTimeAndLocation/>
+      <Details/>
     </div>
   );
 }
